@@ -9,6 +9,7 @@ cd dist
 echo 'zacharyseebeck.com' > CNAME
 
 $message = Read-Host -Prompt 'Deploy message: '
+cp ../'Deploy Readme.md' ./README.md
 
 # Initialize and add everything to a new git repository
 git init
