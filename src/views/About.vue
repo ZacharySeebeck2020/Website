@@ -5,12 +5,12 @@
     <h4 class="text-secondary text-xl py-auto">A student, web developer, and musician located in Bay City, Michigan</h4>
     <hr class="w-64 mx-auto mt-4" />
     <div class="my-5">
-      <p class="text-secondary text-sm">seebeckzachary@gmail.com / (989) 750-5996</p>
+      <p class="text-secondary text-sm"><a href="mailto:seebeckzachary@gmail.com" target="_new">seebeckzachary@gmail.com</a> / (989) 750-5996</p>
     </div>
     <hr class="w-64 mx-auto mt-4" />
     <div class="my-10">
-      <a href="https://github.com/ZacharySeebeck2020" target="new" class="social-btn"><font-awesome-icon :icon="['fab', 'github']" /></a>
-      <a href="https://www.linkedin.com/in/zacharyseebeck/" target="new" class="social-btn"><font-awesome-icon :icon="['fab', 'linkedin']" /></a>
+      <a href="https://github.com/ZacharySeebeck2020" target="new" class="social-btn"><font-awesome-icon :icon="['fab', 'github']" /> Github</a>
+      <a href="https://www.linkedin.com/in/zacharyseebeck/" target="new" class="social-btn"><font-awesome-icon :icon="['fab', 'linkedin']" /> LinkedIn</a>
     </div>
   </div>
 </template>
