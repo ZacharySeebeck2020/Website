@@ -2,7 +2,10 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        background: '#222831',
+        background: {
+          default: '#222831',
+          darker: '#15181c'
+        },
         accent: '#393e46',
         menu_item: '#56AF73',
         social_item: '#56AF73',
