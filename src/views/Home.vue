@@ -1,5 +1,22 @@
 <template>
   <div class="home content-center h-full mx-2">
+    <vue-particles class="particles"
+      color="#a3f7bf"
+      :particleOpacity="0.7"
+      :particlesNumber="90"
+      shapeType="polygon"
+      :particleSize="4"
+      linesColor="#86ad92"
+      :linesWidth="1"
+      :lineLinked="true"
+      :lineOpacity="0.4"
+      :linesDistance="150"
+      :moveSpeed="1"
+      :hoverEffect="true"
+      hoverMode="grab"
+      :clickEffect="true"
+      clickMode="push"
+    ></vue-particles>
     <div class="about">
       <img class="h-64 w-64 mt-12 rounded-full mx-auto object-cover" src="/img/senior_wall.jpg">
       <h1 class="text-primary text-3xl py-auto">Zachary Seebeck</h1>
