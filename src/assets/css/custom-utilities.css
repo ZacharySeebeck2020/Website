@@ -13,6 +13,10 @@
     @apply border-accent;
 }
 
+.router-link-exact-active {
+    @apply border-accent;
+}
+
 .nav-btn:focus {
     @apply shadow-outline;
     @apply outline-none;
