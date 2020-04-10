@@ -19,8 +19,8 @@
     ></vue-particles>
     <div class="about">
       <img class="h-64 w-64 mt-12 rounded-full mx-auto object-cover" src="/img/senior_wall.jpg">
-      <h1 class="text-primary text-3xl py-auto">Zachary Seebeck</h1>
-      <h4 class="text-secondary text-xl py-auto">A student, web developer, and musician located in Bay City, Michigan</h4>
+      <h1 class="text-primary text-3xl">Hi there, I'm <span class="text-primary">Zachary Seebeck</span></h1>
+      <h4 class="text-secondary text-xl py-auto">I am a student, developer, and musician located in Bay City, Michigan.</h4>
       <hr class="w-64 mx-auto mt-4" />
       <div class="my-5">
         <p class="text-secondary text-sm">seebeckzachary@gmail.com / (989) 750-5996</p>

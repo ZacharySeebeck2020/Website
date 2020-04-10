@@ -37,7 +37,8 @@
 
     <!-- Footer -->
     <footer class='w-full text-center pt-8 pb-4 text-secondary'>
-      Created for fun in
+      © 2020 Zachary Seebeck |
+      Created in
       <font-awesome-icon :icon="['fab', 'vuejs']" /> <a href="https://vuejs.org/" target="new">Vue.js</a> and <a
         href="https://tailwindcss.com/" target="new">Tailwindcss.</a>
     </footer>
