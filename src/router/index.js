@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
+import About from '../views/About.vue'
 import Projects from '../views/Projects.vue'
 import PageNotFound from '../views/PageNotFound.vue'
 
@@ -11,6 +12,11 @@ const routes = [
     path: '/',
     name: 'home',
     component: Home
+  },
+  {
+    path: '/about',
+    name: 'about',
+    component: About
   },
   {
     path: '/projects',
@@ -26,7 +32,7 @@ const routes = [
 ]
 
 const router = new VueRouter({
-  mode: 'history',
+  mode: 'hash',
   routes
 })
 

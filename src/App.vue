@@ -1,6 +1,7 @@
 <template>
   <!-- Navigation -->
   <div id="app" class="contatiner mx-auto min-h-screen flex flex-col">
+    <preloader/>
     <header class="md:flex md:justify-between md:items-center md:px-4 nav">
       <div class="flex items-center justify-between px-4 py-3 md:p-0">
         <div class="">
@@ -23,7 +24,7 @@
         style="font-weight: bold">
         <router-link class="nav-btn" to="/">
           <font-awesome-icon :icon="['fas', 'home']" class="pr-1" /> Home</router-link>
-        <!-- <router-link class="nav-btn" to="/"><font-awesome-icon :icon="['fas', 'user']" class="pr-1"/> About</router-link> -->
+        <router-link class="nav-btn" to="/about"><font-awesome-icon :icon="['fas', 'user']" class="pr-1"/> About</router-link>
         <router-link class="nav-btn" to="/projects">
           <font-awesome-icon :icon="['fas', 'vial']" class="pr-1" /> Projects</router-link>
         <a class="nav-btn" href="/files/resume.pdf" target="_new">
@@ -32,6 +33,24 @@
     </header>
     <!-- /Navigation -->
 
+    <vue-particles 
+      class="particles"
+      color="#a3f7bf"
+      :particleOpacity="0.7"
+      :particlesNumber="90"
+      shapeType="polygon"
+      :particleSize="3"
+      linesColor="#86ad92"
+      :linesWidth="1"
+      :lineLinked="true"
+      :lineOpacity="0.4"
+      :linesDistance="150"
+      :moveSpeed="2"
+      :hoverEffect="true"
+      hoverMode="grab"
+      :clickEffect="false"
+      clickMode="push"
+    ></vue-particles>
 
     <router-view class="pt-4 flex-grow" />
 
@@ -48,10 +67,13 @@
 
 <script>
   import './assets/css/app.css'
+  import Preloader from '@/components/Preloader'
 
   export default {
     name: 'home',
-    components: {},
+    components: {
+      Preloader
+    },
     data() {
       return {
         isOpen: false,

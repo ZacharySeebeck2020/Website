@@ -2,12 +2,12 @@ import Vue from 'vue';
 import App from './App.vue';
 import router from './router';
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { faHome, faUser, faVial, faCode, faLaptop, faFile } from '@fortawesome/free-solid-svg-icons';
+import { faHome, faUser, faVial, faCode, faLaptop, faFile, faPhone, faEnvelopeSquare } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 import { faLinkedin, faGithub, faTwitter, faVuejs } from '@fortawesome/free-brands-svg-icons';
 import VueParticles from 'vue-particles';
 
-library.add(faHome, faVial, faUser, faCode, faLaptop, faFile);
+library.add(faHome, faVial, faUser, faCode, faLaptop, faFile, faPhone, faEnvelopeSquare);
 library.add(faLinkedin, faGithub, faTwitter, faVuejs);
 
 Vue.component('font-awesome-icon', FontAwesomeIcon);

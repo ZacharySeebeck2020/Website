@@ -3,6 +3,7 @@ module.exports = {
     extend: {
       colors: {
         background: {
+          lighter: '#3e4959',
           default: '#222831',
           darker: '#15181c'
         },
@@ -14,7 +15,11 @@ module.exports = {
           default: '#29a19c',
           darker: '#1a6965'
         },
-        secondary: '#a3f7bf',
+        secondary: {
+          lighter: '#a3f7bf',
+          default: '#7ebd93',
+          darker: '#5c8a6b',
+        }
       },
       spacing: {
         '96': '24rem',
