@@ -23,7 +23,7 @@
             <div class="mx-auto lg:mx-0 w-4/5 pt-3 border-b-2 border-teal-500 opacity-25"></div>
 
             <p class="pt-8 text-lg text-secondary-lighter">
-              I am a high school senior with a deep interest in web development and technology. I currently work for <a target="_new" href="https://ntdealerservices.com">Newtech Dealer Services</a> as a 
+              I'm a college student working towards getting my associates in Business And Information Technologies. I currently work for <a target="_new" href="https://ntdealerservices.com">Newtech Dealer Services</a> as a 
               software developer using a range of technology including Laravel, VueJS, MySql, and Couchbase. Previously I've also worked on developing websites with
               all-in-one content management systems such as Wordpress and developing plugins to meet customer's needs.
             </p>
