@@ -9,7 +9,10 @@ module.exports = {
         },
         accent: '#393e46',
         menu_item: '#56AF73',
-        social_item: '#56AF73',
+        social_item: {
+          default: '#56AF73',
+          dark: '#74f29f'
+        },
         primary: {
           lighter: '#3ee6df',
           default: '#29a19c',
