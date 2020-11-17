@@ -22,4 +22,6 @@ git push -f https://github.com/ZacharySeebeck2020/zacharyseebeck2020.github.io.g
 # Go back to the starting directory.
 cd ..
 
+rm dist -R -Force
+
 Write-Host "\n\n\nDeployed properly with message '$message'" 
