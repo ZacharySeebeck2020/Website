@@ -1,0 +1,25 @@
+.container {
+  @apply m-3;
+  overflow-x: none;
+  min-height: 100%;
+}
+
+.socialBtn {
+  @apply mx-auto;
+  @apply bg-gray-700;
+  @apply text-white;
+  @apply px-5;
+  @apply py-4;
+  @apply mx-3; 
+  @apply rounded-full;
+  @apply no-underline;
+}
+
+.socialBtn:hover {
+  @apply bg-gray-500;
+}
+
+.socialBtn:focus {
+  @apply shadow-sm;
+  @apply outline-none;
+}

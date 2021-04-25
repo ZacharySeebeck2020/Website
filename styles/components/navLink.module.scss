@@ -1,0 +1,24 @@
+.navBtn {
+    @apply text-black;
+    @apply px-3;
+    @apply py-2;
+    @apply rounded-md;
+    @apply text-sm;
+    @apply font-medium;
+    cursor: pointer;
+    -webkit-user-select: none;     
+    -moz-user-select: none; 
+    -ms-user-select: none;
+    user-select: none; 
+
+}
+
+.navBtn:hover {
+    @apply bg-gray-700;
+    @apply text-white;
+}
+.selected {
+    @apply navBtn;
+    @apply bg-gray-700;
+    @apply text-white;
+}

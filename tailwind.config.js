@@ -1,35 +1,26 @@
 module.exports = {
+  purge: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
+  darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
       colors: {
-        background: {
-          lighter: '#3e4959',
-          default: '#222831',
-          darker: '#15181c'
+        offwhite: {
+          DEFAULT: '#f6f6f6'
         },
-        accent: '#393e46',
-        menu_item: '#56AF73',
-        social_item: {
-          default: '#56AF73',
-          dark: '#74f29f'
+        turquoise: {
+          DEFAULT: '#c7ffd8'
         },
-        primary: {
-          lighter: '#3ee6df',
-          default: '#29a19c',
-          darker: '#1a6965'
+        lightblue: {
+          DEFAULT: '#98ded9'
         },
-        secondary: {
-          lighter: '#a3f7bf',
-          default: '#7ebd93',
-          darker: '#5c8a6b',
+        darkPurple: {
+          DEFAULT: '#161d6f'
         }
-      },
-      spacing: {
-        '96': '24rem',
-        '128': '32rem',
       }
-    }
+    },
   },
-  variants: {},
-  plugins: []
+  variants: {
+    extend: {},
+  },
+  plugins: [],
 }
