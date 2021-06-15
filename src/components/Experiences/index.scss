@@ -1,0 +1,66 @@
+$bottom-outline-color: rgba(82,93,104,.1);
+
+.individualExperience {
+    display: flex;
+    flex-direction: row;
+    .left {
+        flex-grow: 1;
+        border-bottom: 2px solid ($bottom-outline-color);
+        margin-bottom: 2em;
+        padding-bottom: 2em;
+        h3 {
+            margin-top: .5em;
+            margin-bottom: 0;
+        }
+        h4 {
+            margin-top: 0;
+        }
+    }
+    .right {
+        margin-top: 1em;
+        width: 46em;
+    }
+}
+
+.individualEducation {
+    display: flex;
+    flex-direction: row;
+    .left {
+        flex-grow: 1;
+        border-bottom: 2px solid ($bottom-outline-color);
+        margin-bottom: 1em;
+        h3 {
+            margin-top: .5em;
+            margin-bottom: 0;
+        }
+        h4 {
+            margin-top: 0;
+        }
+    }
+    .right {
+        margin-top: 1em;
+        width: 10em;
+    }
+}
+
+.resumeHeading {
+    display: flex;
+}
+
+.experience {
+    margin-top: 2em;
+    display: flex;
+    flex-direction: row;
+
+    .title {
+        margin-right: 2em;
+        h2 {
+            margin-top: 0px;
+            text-align: left;
+        }
+    }
+
+    .experiences {
+        width: 100%;
+    }
+}

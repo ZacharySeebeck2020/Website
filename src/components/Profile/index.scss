@@ -1,0 +1,36 @@
+.title {
+    margin-bottom: 0;
+}
+
+.subtitle {
+    margin-top: .5em;
+    color: rgba(82,93,104,.7);
+}
+
+.info {
+    display: flex;
+
+    .left {
+        flex-grow: 1;
+        flex-direction: row;
+        display: flex;
+
+        p {
+            text-align: justify;
+            line-height: 1.5em;
+            margin-left: 1em;
+        }
+    }
+    
+    .right {
+        flex-grow: 1;
+        flex-direction: row;
+        display: flex;
+        margin-left: 2em;
+
+        .skills {
+            padding-left: 3em;
+        }
+    }
+}
+

@@ -1,0 +1,48 @@
+$nav-height: 1em;
+$nav-color: rgba(82,93,104,.7);
+$nav-outline-color: rgba(82,93,104,.1);
+$nav-background: rgba(46, 46, 46, .8);
+$nav-hover: #00939c;
+
+nav {
+  position: sticky;
+  margin-top: 1rem;
+  margin-right: 2em;
+  margin-left: 2em;
+  padding-left: 1em;
+  padding-right: 1em;
+  border: 1px solid ($nav-outline-color);
+  top: 0;
+  color: $nav-color;
+  font-weight: bold;
+  letter-spacing: 0.025em;
+  background: white;
+  z-index: 3;
+
+  .titleContainer {
+    display: flex;
+  }
+  
+  .logo {
+    position: absolute;
+    height: 3em;
+  }
+
+  ul {
+    text-align: right;
+    margin: 0;
+    a {
+      color: inherit;
+      text-decoration: none;
+      display: inline-block;
+      padding: 0 1em;
+      line-height: 3em;
+      cursor: pointer;
+      &:hover {
+        color: ($nav-hover);
+      }
+    }
+  }
+}
+
+
