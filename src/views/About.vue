@@ -23,8 +23,10 @@
             <div class="mx-auto lg:mx-0 w-4/5 pt-3 border-b-2 border-teal-500 opacity-25"></div>
 
             <p class="pt-8 text-lg text-secondary-lighter">
-              I'm a college student working towards getting my associates in Business And Information Technologies. I currently work for <a target="_new" href="https://ntdealerservices.com">Newtech Dealer Services</a> as a 
-              software developer using a range of technology including Laravel, VueJS, MySql, and Couchbase. Previously I've also worked on developing websites with
+              I'm a college student working towards getting my associates in Business And Information Technologies. I currently work for <a target="_new" href="https://www.vascularhealthclinics.org/">Vascular Health Clinics</a> as a 
+              full-stack web developer building a custom patient charting application. Previously I worked at <a target="_new" href="https://newtechdealerservices.com/">Newtech Dealer Services</a> as a software developer. 
+              There I used a range of technology including Laravel, VueJS, MySql, and Couchbase. 
+              I've also worked on developing websites with
               all-in-one content management systems such as Wordpress and developing plugins to meet customer's needs.
             </p>
 
@@ -62,14 +64,6 @@
               <i title="WordPress" class="devicon-wordpress-plain text-secondary text-4xl px-1"></i>
               <i title="Microsoft Visual Studio" class="devicon-visualstudio-plain text-secondary text-4xl px-1"></i>
             </div>
-
-<!-- 
-            <p class="pt-8 text-lg text-secondary-lighter">
-              I am a high school senior with a deep interest in web development and technology. I currently work for <a target="_new" href="https://ntdealerservices.com">Newtech Dealer Services</a> as a 
-              software developer using a range of technology including Laravel, VueJS, MySql, and Couchbase. Previously I've also worked on developing websites with
-              all-in-one content management systems such as Wordpress and developing plugins to meet customer's needs.
-            </p> -->
-
           </div>
         </div>
       </div>
