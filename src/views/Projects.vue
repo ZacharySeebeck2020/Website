@@ -24,6 +24,7 @@
         img="/img/proj/united_way.png"
       />
       
+
       <Project 
         title="Bay City Santa House" 
         desc="Our local Bay City Santa House wanted a new website to be able to give parents and children information about the 
@@ -33,6 +34,13 @@
           want to do any changes in the future. This site was built by a handful of students
           at the Bay Arenac Career Center." 
         live="https://baycitysantahouse.com/" img="/img/proj/santa_house.png"
+      />
+      
+      <Project 
+        title="The Three Sisters Shoppe" 
+        desc="I was contacted by the Three Sisters Shoppe to build an e-commerce website. The site is built using Wordpress 
+          and WooCommerce." 
+        img="/img/proj/three_sisters.png"
       />
       
       <Project title="Computer Programming Final - Joe's Automotive" desc="After the first year of the Bay-Arenac Carrer Center programming course, I was tasked with making a CMS for Joe's Automotive using C#, WinForms, and SQL Server. This project wanted a fully working customer system, including invoice creation, vehicle tracking, and parts management." git="https://github.com/ZacharySeebeck2020/Joes-Automotive" img="/img/proj/joes_auto.png"/>
